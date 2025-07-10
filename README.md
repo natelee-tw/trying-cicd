@@ -54,3 +54,9 @@ To deploy to Streamlit Cloud:
 5. Deploy!
 
 The app will automatically redeploy when you push changes to the main branch.
+
+### Live Demo
+
+🎮 **Try the Pokemon Generator**: [https://trying-cicd-p4zv5d76dovbhzmqpab2m8.streamlit.app/](https://trying-cicd-p4zv5d76dovbhzmqpab2m8.streamlit.app/)
+
+Click the button to discover random Pokemon with their images and details!
