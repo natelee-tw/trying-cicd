@@ -25,5 +25,9 @@ jobs:
       - name: Run unit tests
         run: |
           pytest test_app.py
-      # - name: Deploy (optional)
-      #   run: echo "Deploy step here (e.g., Streamlit Cloud, SSH, etc.)" 
+      - name: Deploy to Streamlit Cloud
+        if: github.ref == 'refs/heads/main'
+        run: |
+          echo "Deploying to Streamlit Cloud..."
+          # Streamlit Cloud deployment happens automatically when code is pushed to main
+          # Make sure your repo is connected to Streamlit Cloud 
