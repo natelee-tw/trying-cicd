@@ -4,7 +4,8 @@ A simple Streamlit application with automated CI/CD pipeline using GitHub Action
 
 ## Features
 
-- Basic Streamlit UI with interactive button
+- Interactive Pokemon generator with random Pokemon display
+- Pokemon images and information from PokeAPI
 - Automated linting with flake8
 - Unit tests with pytest
 - GitHub Actions CI/CD pipeline
@@ -21,6 +22,8 @@ A simple Streamlit application with automated CI/CD pipeline using GitHub Action
    ```bash
    streamlit run app.py
    ```
+   
+   The app will show a Pokemon generator where you can click a button to get a random Pokemon with its image and details!
 
 3. Run tests:
    ```bash

@@ -1,3 +1,4 @@
 streamlit
 pytest
-flake8 
+flake8
+requests 
