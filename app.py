@@ -28,7 +28,7 @@ def get_random_pokemon():
         return None
 
 def main():
-    st.title("🎮 Random Pokemon Generator")
+    st.title("🎮 Random Cute Pokemon Generator")
     st.write("Press the button below to discover a random Pokemon!")
     
     if st.button("🎲 Get Random Pokemon"):
